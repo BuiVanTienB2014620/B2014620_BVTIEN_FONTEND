@@ -20,9 +20,9 @@ export default {
     <ul class="list-group">
         <li 
             class="list-group-item"
-            v-for="(contact, index) in contact"
-            :key="contact._id"
-            :class="{active: index == activeIndex}"
+            v-for="(contact, index) in contacts"
+            :key="index"
+            :class="{active: index === activeIndex}"
             @click="updateActiveIndex(index)"
 
         

@@ -21,9 +21,9 @@ export default {
 
 <template>
     <div class="input-group">
-        <input 
+        <input
             type="text"
-            class="from-control"
+            class="form-control"
             placeholder="Nhập thông tin cần tìm"
             :value="modelValue"
             @input="updateModelValue"
@@ -41,7 +41,7 @@ export default {
             
             
             >
-              <i class="fa fa-search"></i>Tìm kiếm
+            <i class="fas fa-search"></i>Tìm kiếm
 
             </button>
         </div>
