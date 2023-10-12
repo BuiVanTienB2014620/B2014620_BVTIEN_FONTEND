@@ -34,7 +34,7 @@ export default {
       if (confirmed) {
         try {
           await ContactService.create(data);
-          this.message = "Thêm liên hệ thành công";
+          this.message = "Thêm liên hệ mới thành công";
         } catch (error) {
           console.log(error);
         }
