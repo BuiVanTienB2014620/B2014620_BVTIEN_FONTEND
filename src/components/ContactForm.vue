@@ -62,6 +62,11 @@
       >
         Xóa
       </button>
+      <button class="btn btn-danger" style="margin-left: 8px;">
+        <router-link :to="{name: 'contactbook'}" class="exit">
+          Thoát
+
+        </router-link></button>
     </div>
   </Form>
 </template>
@@ -116,4 +121,8 @@ export default {
 </script>
 <style scoped>
 @import "@/assets/form.css";
+.exit{
+  text-decoration: none;
+  color: #ffff;
+}
 </style>
